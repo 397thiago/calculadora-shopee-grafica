@@ -1,2 +1,2 @@
-# calculadora-shopee-grafica
-Essa calculadora feita especificamente para a TG Gráfica, faz o calculo e apresenta os preços de venda pela plataforma Shopee e tambem o preço de venda por fora da plataforma, tudo de acordo com as especificações dos materiais, tipo de corte e quantidade de folhas, alterando o preço de acordo com cada um desses criterios e apresentando apas o valor de venda final.
+#calculadora-shopee-grafica
+Essa calculadora feita especificamente para uma gráfica, faz o calculo e apresenta os preços de venda pela Shopee aplicando todas as taxas da plataforma e tambem o preço de venda diretamente com a gráfica; tudo de acordo com as especificações dos materiais, tipo de corte e quantidade de folhas, alterando o preço de acordo com cada um desses criterios e apresentando apas o valor de venda final.
