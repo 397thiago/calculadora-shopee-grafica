@@ -4,8 +4,8 @@
 
 int main(){ 
 	setlocale(LC_ALL, "Portuguese");
-	float custoFolha, quantidadeFolhas, precoVenda, precoVendaShopee;
-	int num, porcentagemShopee, i = 1;
+	float custoFolha, quantidadeFolhas, precoVenda, precoVendaShopee, porcentagemShopee;
+	int num, i = 1;
 	
 	printf("=============== Calculadora de preços TG Impressos ===============\n");
 
@@ -38,9 +38,9 @@ int main(){
 	            if (custoFolha < 0.30) {
 	                precoVenda = ((custoFolha * quantidadeFolhas) + 1.5) * 3 + 3;
 	            } else if (custoFolha >=0.30 && custoFolha < 0.70) {
-	                precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
+	                precoVenda = ((custoFolha * quantidadeFolhas) + 2.5) * 3 + 3;
 	            } else {
-	                precoVenda = ((custoFolha * quantidadeFolhas) + 4) * 3 + 3;
+	                precoVenda = ((custoFolha * quantidadeFolhas) + 3.5) * 3 + 3;
 	            }
 	        break;
 	        
