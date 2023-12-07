@@ -36,7 +36,7 @@ int main(){
 	        
 	        case 2 :
 	            if (custoFolha < 0.30) {
-	                precoVenda = ((custoFolha * quantidadeFolhas) + 1) * 3 + 3;
+	                precoVenda = ((custoFolha * quantidadeFolhas) + 1.5) * 3 + 3;
 	            } else if (custoFolha >=0.30 && custoFolha < 0.70) {
 	                precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
 	            } else {
