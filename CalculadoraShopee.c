@@ -15,6 +15,7 @@ int main(){
 	    printf(" (1) Cartão com corte na máquina;\n");
 	    printf(" (2) Cartão com corte manual;\n");
 	    printf(" (3) Folhetos apenas frente A6;\n");
+	    printf(" (4) Adesivos;\n");
 	    scanf("%d",&num);
 	    fflush(stdin);
 	    
@@ -47,6 +48,9 @@ int main(){
 	        case 3 : 
 	            precoVenda = ((custoFolha * quantidadeFolhas) + 1) * 2.7 + 3;
 	        break;
+	        
+	        case 4 :
+	        	precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
 	        
 	        default:
 	            printf(" Número inválido!\n");
