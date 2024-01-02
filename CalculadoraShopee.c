@@ -50,7 +50,8 @@ int main(){
 	        break;
 	        
 	        case 4 :
-	        	precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
+	        	precoVenda = ((custoFolha * quantidadeFolhas) + 2.5) * 3 + 3;
+	        break;
 	        
 	        default:
 	            printf(" Número inválido!\n");
