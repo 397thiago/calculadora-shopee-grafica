@@ -8,7 +8,7 @@ int main(){
 	int num, i = 1;
 	printf("===================================================================\n");	
 	printf("===================== CALCULADORA TG IMPRESSOS ====================\n\n");
-	printf(" Desenvolvedor: Thiago Vieira                          Versão 2.0\n");
+	printf(" Desenvolvedor: Thiago Vieira                          Versão 2.1\n");
 
 	do{
 		printf("===================================================================\n\n");	
@@ -29,7 +29,17 @@ int main(){
 	    fflush(stdin);
 	    
 	    switch(num){
-	        case 1 || 2 : 
+	        case 1 : 
+	        	if(quantidadeFolhas < 5){
+	        		precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
+				}else if(quantidadeFolhas >= 5 && quantidadeFolhas < 10){
+					precoVenda = ((custoFolha * quantidadeFolhas) + 7) * 3 + 3;
+				}else{
+					precoVenda = ((custoFolha * quantidadeFolhas) + 10) * 3 + 3;
+				}	
+	        break;
+	        
+	        case 2 : 
 	        	precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
 	        break;
 	        
