@@ -4,13 +4,13 @@
 
 int main(){ 
 	setlocale(LC_ALL, "Portuguese");
-	float custoFolha, quantidadeFolhas, precoVenda,
-	      precoVendaShopee, porcentagemShopee;
+	float custoFolha = 0, quantidadeFolhas = 0, precoVenda = 0,
+	      precoVendaShopee = 0, porcentagemShopee = 0;
 	int   num, i = 1;
 	
 	printf("===================================================================\n");	
 	printf("===================== CALCULADORA TG IMPRESSOS ====================\n\n");
-	printf(" Desenvolvedor: Thiago Vieira                         Versão 2.2.0\n");
+	printf(" Desenvolvedor: Thiago Vieira                         Versão 2.2.4\n");
 
 	do{
 		printf("===================================================================\n\n");	
@@ -35,9 +35,9 @@ int main(){
 	        	if(quantidadeFolhas <= 5){
 	        		precoVenda = ((custoFolha * quantidadeFolhas) + 3) * 3 + 3;
 				}else if(quantidadeFolhas > 5 && quantidadeFolhas < 10){
-					precoVenda = ((custoFolha * quantidadeFolhas) + 7) * 3 + 3;
-				}else if(quantidadeFolhas > 10){
-					precoVenda = ((custoFolha * quantidadeFolhas) + 10) * 3 + 3;
+					precoVenda = ((custoFolha * quantidadeFolhas) + 6) * 3 + 3;
+				}else if(quantidadeFolhas >= 10){
+					precoVenda = ((custoFolha * quantidadeFolhas) + 9) * 3 + 3;
 				}	
 	        break;
 	        
