@@ -10,7 +10,7 @@ int main(){
 	
 	printf("===================================================================\n");	
 	printf("===================== CALCULADORA TG IMPRESSOS ====================\n\n");
-	printf(" Desenvolvedor: Thiago Vieira                         Versão 2.2.4\n");
+	printf(" Desenvolvedor: Thiago Vieira                         Versão 2.2.5\n");
 
 	do{
 		printf("===================================================================\n\n");	
@@ -64,7 +64,7 @@ int main(){
 	        break;
 	        
 	        case 5 :
-	        	precoVenda = ((custoFolha * quantidadeFolhas) + 2.5) * 3 + 3;
+	        	precoVenda = ((custoFolha * quantidadeFolhas) + 1) * 2.5 + 3;
 	        break;
 
 	        default:
